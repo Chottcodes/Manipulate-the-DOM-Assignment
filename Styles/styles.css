@@ -1,3 +1,16 @@
 .box-container{
-    background-color: ;
+    background-color: grey;
+    width: 100px;
+    gap: 50px;
+    display: grid;
+    grid-template-rows:repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: start;
+}
+.box-container button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
 }
