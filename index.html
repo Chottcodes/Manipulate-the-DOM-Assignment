@@ -1,24 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./Styles/styles.css">
-</head>
-<body id="body">
+    <link rel="stylesheet" href="./Styles/styles.css" />
+  </head>
+  <body id="body">
     <div class="box-container">
-        <button id="blue">blue</button>
-        <button id="red">red</button>
-        <button id="green">green</button>
-        <button id="yellow">yellow</button>
-        <button id="grey">grey</button>
-        <button id="purple">purple</button>
-        <button id="pink">pink</button>
-        <button id="brown">brown</button>
-        <button id="orange">orange</button>
-        <button id="gold">gold</button>
+      <button id="blue">blue</button>
+      <button id="red">red</button>
+      <button id="show-Text">Show Text</button>
+      <button id="yellow">Text color</button>
+      <button id="changeMeBTN">Change Text</button>
+      <button id="showimg">click here</button>
+      <button id="adjustBTN">adjust</button>
+      <button id="orange">orange</button>
+      <button id="gold">gold</button>
+    </div>
+    <h1 id="Hello-Header"></h1>
+    <p id="day-p-element">Change Me!</p>
+    <div id="favorite-game">
+      <img
+        id="video-game-cover"
+        src="./Assests/TF2 IMAGE.jpg"
+        alt="Team Fortess 2 Image"
+      />
+      <h2 id="gameplay-title"></h2>
+      <iframe
+        id="tf2video"
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/xQStVdFL86E?si=3D2N-oRTn_JcNoj_"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="user-submit" style="width: 100%; display: none;">
+      <div class="input-div" style="margin: auto;">
+        <h3 id="title-user-input">
+          type something and click the submit botton
+        </h3>
+        <input id="input" type="text" />
+        <button id="submitBTN">submit</button>
+        <ul id="users-output"></ul>
+      </div>
     </div>
     <script src="./app/app.js"></script>
-</body>
+  </body>
 </html>

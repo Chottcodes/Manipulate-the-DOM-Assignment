@@ -1,10 +1,17 @@
 .box-container{
-    width: 100px;
+    width: 100%;
     gap: 50px;
     display: grid;
     grid-template-rows:repeat(2, 1fr);
     grid-template-columns: repeat(5, 1fr);
     justify-content: start;
+}
+#Hello-Header{
+    text-align: center;
+}
+#day-p-element{
+    text-align: center;
+    display: none;
 }
 .box-container button{
     height: 50px;
@@ -12,4 +19,10 @@
     background-color: black;
     color: white;
     font-size: 30px;
+}
+#video-game-cover{
+    display: none;
+}
+#favorite-game{
+    display: none;
 }
